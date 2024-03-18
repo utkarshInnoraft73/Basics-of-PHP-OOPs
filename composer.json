@@ -1,0 +1,14 @@
+{
+    "name": "root/basics-of-php-oo-ps",
+    "autoload": {
+        "psr-4": {
+            "Root\\BasicsOfPhpOoPs\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.2"
+    }
+}

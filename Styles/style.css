@@ -1,0 +1,129 @@
+/**
+ * Import google font.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --primary-color : #FF7900;
+    --secondary-color: #4B5561;
+}
+
+/**
+ * Set the font family in all over the page.
+ */
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+/**
+ * Define the with of container.
+ */
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+/**
+ * Define a class for display flex.
+ */
+.d-flex {
+    display: flex;
+}
+
+/**
+ * Class for justify content center.
+ */
+.justify-content-center {
+    justify-content: space-around;
+}
+
+/**
+ * Class to set the item center.
+ */
+.align-item-center {
+    align-items: center;
+}
+
+/**
+ * Class for set flex-direction column.
+ */
+.flex-col {
+    flex-direction: column;
+}
+
+/**
+ * Set the item links width is 45%.
+ */
+.itemLinks {
+    width: 45%;
+}
+
+/**
+ * Set the width of image div.
+ */
+.itemImg {
+    width: 45%;
+}
+
+/**
+ * Design the button.
+ */
+.btn {
+    padding: 10px 25px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    border:2px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+/**
+ * Style the title of services.
+ */
+.service-title {
+    font-size: 50px;
+    color: var(--primary-color);
+    text-align: left;
+}
+
+/**
+ * Style the sub-title of services.
+ */
+.service-secondary-title {
+    font-size: 40px;
+    color: #4B5561;
+    text-align: left;
+}
+/**
+ * Set margin from top and bottom of serviceContainer.
+ */
+.serviceContainer {
+    margin: 30px 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    padding: 0 21px !important;
+    
+}
+
+ul li {
+   list-style: circle;
+}
+
+ul li::marker {
+    list-style: circle;
+    font-size: 30px;
+    color: var(--primary-color);
+}
+ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.icon {
+    width: 70px;
+    margin: 0 10px;
+}
+
